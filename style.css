@@ -1,0 +1,76 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a85732;
+    background-color: #fff9ed;
+}
+header{
+    background-color: #8ba664;
+    width: auto;
+    height: 270px;
+    margin:40px;
+    font-size: large; 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: auto;
+}
+main{
+     margin: 35px;
+}
+#intro{
+    margin-left: 30px;
+
+}
+header img{
+    max-height: 250px;
+    margin-left: 500px;
+    
+}
+blockquote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-variant: small-caps;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+main img{
+    width: 50%;
+    min-width: 200x;
+    max-width: 350px;
+}
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 3px double;
+  margin-left: auto;
+  margin-right: auto;
+}
+th,td{
+    padding: 10px;
+}
+ul{
+    list-style-type: square;
+}
+#hug{
+    font-variant: small-caps;
+    font-size: large;
+    text-align: center;
+}
+footer{ 
+    background-color: #8ba664;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #a85732;
+}
+a:hover{
+    text-decoration: underline;
+    color: #fff9ed;
+}
